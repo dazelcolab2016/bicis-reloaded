@@ -1,5 +1,5 @@
 var toValidate = [
-    {id:"name", mensaje:"Ingresa tu nombre", validations:[" empty;text"]},
+    {id:"name", mensaje:"Ingresa tu nombre", validations:["text"]},
     {id:"lastname", mensaje:"Ingresa tu Apellido", validations:["text",]},
     {id:"input-email", mensaje:"Ingresa tu Email", validations:["email"]},
     {id:"input-password", mensaje:"Ingresa un Password", validations:["password"]},
